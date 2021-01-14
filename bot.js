@@ -10,7 +10,7 @@ client.on("ready", () => {
 });
 
 client.on("messageDelete", (msg) => {
-  console.log(msg);
+  // console.log(msg);
   // msg.channel.send(msg.content);
   msg.channel.send("Stop Deleting Messages!");
 });
